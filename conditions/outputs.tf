@@ -1,5 +1,5 @@
-# output "public_ip" {
-#   value       = "aws_instance.terraform.public_ip"
-#   sensitive   = false
-#   description = "This is public of the instance created"
-# }
+output "public_ip" {
+  value       = aws_instance.terraform.public_ip
+  sensitive   = false
+  description = "This is public of the instance created"
+}

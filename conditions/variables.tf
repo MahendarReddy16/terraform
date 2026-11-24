@@ -1,3 +1,3 @@
 variable "evironment" {
-    default = "DEV"
+    default = "Prod"
 }
