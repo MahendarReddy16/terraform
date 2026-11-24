@@ -23,7 +23,7 @@ variable "tags" {
 
 variable "sg_name" {
     type = string
-    default "allow_sshh"
+    default = "allow_sshh"
 }
 
 variable "ingress_from_port" {
